@@ -161,7 +161,7 @@ object Main extends App {
   println("List before incrementing:" + list)
 
   println("Task10")
-  val realNumbers = List[Double](Math.PI, -Math.E, 5.5, 10.2, 15.9, 2, 4, 7, 8.8, 21.37, -2.6, -7.7, -5)
+  val realNumbers = List[Double](Math.PI, -Math.E, -10, -8, -6, -4, -1, 0, 2, 6, 10, 12, 15, 17)
   def returnListOfAbsValInRange(list: List[Double], r1: Int, r2: Int): List[Double] = {
     list.filter(x => x >= r1)
       .filter(x => x <= r2)
